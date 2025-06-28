@@ -10,3 +10,7 @@ venv/
 
 # OS
 .DS_Store
+.venv/
+.coverage
+.venv/
+.coverage
