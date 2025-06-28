@@ -47,3 +47,8 @@ Testing
 
 Interactive docs: http://localhost:8000/docs
 Health check: http://localhost:8000/health
+
+## Future Improvements
+- Move API endpoints from main.py to api/prices.py for better organization
+- Extract Pydantic models to schemas/ directory
+- Implement provider interface for multiple data sources
