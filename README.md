@@ -8,7 +8,7 @@ A robust, production‑ready FastAPI microservice for fetching, processing, and 
 
 This project provides:
 
-* **Real‑time price retrieval** via multiple data providers (e.g., Yahoo Finance, Alpha Vantage, Finnhub).
+* **Real‑time price retrieval** via data provider (e.g., Yahoo Finance, Alpha Vantage, Finnhub).
 * **Scheduled polling** of symbols at configurable intervals, persisting raw and processed data.
 * **Event streaming** pipeline using Kafka for downstream consumers.
 * **Moving average computation** and storage for trend analysis.
