@@ -14,3 +14,43 @@ venv/
 .coverage
 .venv/
 .coverage
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Git
+.git/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Coverage
+.coverage
+htmlcov/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
