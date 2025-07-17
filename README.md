@@ -4,7 +4,7 @@ A robust, production‑ready FastAPI microservice for fetching, processing, and 
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project provides:
 
@@ -20,7 +20,7 @@ Ideal for developers and data engineers building financial analytics or algorith
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 market-data-service/
@@ -41,7 +41,7 @@ market-data-service/
 
 ---
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 * **Git** (>=2.30)
 * **Python** (>=3.8)
@@ -51,7 +51,7 @@ market-data-service/
 
 ---
 
-## 💻 Installation & Local Setup
+## Installation & Local Setup
 
 1. **Clone the repository**
 
@@ -76,7 +76,7 @@ market-data-service/
 
 ---
 
-## 🐳 Running Locally with Docker Compose
+## Running Locally with Docker Compose
 
 1. **Start all services**
 
@@ -101,13 +101,13 @@ market-data-service/
 
 ---
 
-## 🎯 Configuration
+## Configuration
 
 All environment-specific settings (database URL, Kafka brokers, Redis URL) are managed via environment variables in `docker-compose.yml`. Refer to `app/core/config.py` for the full list.
 
 ---
 
-## 🔧 Usage Examples
+## Usage Examples
 
 * **Health check**
 
@@ -131,7 +131,7 @@ All environment-specific settings (database URL, Kafka brokers, Redis URL) are m
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Run the full test suite with coverage reporting:
 
@@ -141,7 +141,7 @@ pytest --cov=app --cov-report=term-missing -v
 
 ---
 
-## ⚙️ Continuous Integration & Deployment
+## Continuous Integration & Deployment
 
 A sample GitHub Actions workflow (`.github/workflows/ci.yml`) can:
 
@@ -152,7 +152,7 @@ A sample GitHub Actions workflow (`.github/workflows/ci.yml`) can:
 
 ---
 
-## 📈 Architecture
+## Architecture
 
 Detailed diagrams and design rationale live in the `docs/` directory. Highlights:
 
@@ -164,14 +164,14 @@ Detailed diagrams and design rationale live in the `docs/` directory. Highlights
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 * Extract provider interface and implement Alpha Vantage and Finnhub providers
 * Implement scheduler (APScheduler or Celery) to process `polling_jobs` automatically
 * Enhance documentation with troubleshooting guides and advanced usage examples
 * Expand test suite with integration and performance tests
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repo
 2. Create a feature branch (`git checkout -b feature-name`)
